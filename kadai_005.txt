@@ -1,0 +1,28 @@
+yuma@maedayuubas-MacBook-Pro ~ % mkdir git_chellenge
+yuma@maedayuubas-MacBook-Pro ~ % cd git_chellenge
+yuma@maedayuubas-MacBook-Pro git_chellenge % git init
+Initialized empty Git repository in /Users/yuma/git_chellenge/.git/
+yuma@maedayuubas-MacBook-Pro git_chellenge % git add hello_world.txt
+yuma@maedayuubas-MacBook-Pro git_chellenge % git commit -m"hello_world.txtを追加"
+[main (root-commit) e374570] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+yuma@maedayuubas-MacBook-Pro git_chellenge % git add hello_world.txt
+yuma@maedayuubas-MacBook-Pro git_chellenge % git commit -m"日本語訳を追記"
+[main 00e0858] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+yuma@maedayuubas-MacBook-Pro git_chellenge % git log
+commit 00e08585d684dc61f977ba05e7d24fc6a24211d0 (HEAD -> main)
+Author: icecream1990 <yuma.m441@gmail.com>
+Date:   Wed Jun 12 22:42:19 2024 +0900
+
+    日本語訳を追記
+
+commit e374570ece260b2d44b905f24b7709ba8a4d1b31
+Author: icecream1990 <yuma.m441@gmail.com>
+Date:   Wed Jun 12 22:40:56 2024 +0900
+
+    hello_world.txtを追加
+yuma@maedayuubas-MacBook-Pro git_chellenge % 
+
+
